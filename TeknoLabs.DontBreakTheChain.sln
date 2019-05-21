@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoLabs.DontBreakTheChain.Core", "..\TeknoLabs.DontBreakTheChain.Core\TeknoLabs.DontBreakTheChain.Core.csproj", "{95985A98-525D-410E-B029-D7A159B498C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoLabs.DontBreakTheChain.Core", "TeknoLabs.DontBreakTheChain.Core\TeknoLabs.DontBreakTheChain.Core.csproj", "{95985A98-525D-410E-B029-D7A159B498C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoLabs.DontBreakTheChain.Application", "TeknoLabs.DontBreakTheChain.Application\TeknoLabs.DontBreakTheChain.Application.csproj", "{01161EAE-DA78-47BB-8A40-3A94EC447524}"
 EndProject

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace TeknoLabs.DontBreakTheChain.Core
 {
-    class Class1
+    public class CoreExample
     {
+        public CoreExample()
+        {
+            
+        }
     }
 }

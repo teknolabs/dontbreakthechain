@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeknoLabs.DontBreakTheChain.Core\TeknoLabs.Core.csproj" />
+    <ProjectReference Include="..\TeknoLabs.DontBreakTheChain.Database\TeknoLabs.DontBreakTheChain.DataAccess.csproj" />
+    <ProjectReference Include="..\TeknoLabs.DontBreakTheChain.Entities\TeknoLabs.DontBreakTheChain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TeknoLabs.DontBreakTheChain.Business;
+using TeknoLabs.DontBreakTheChain.WebUI.Models;
 
 namespace TeknoLabs.DontBreakTheChain.WebUI.Controllers
 {
@@ -18,7 +19,12 @@ namespace TeknoLabs.DontBreakTheChain.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var habits = _habitService.GetAll();
+            HabitListViewModel model = new HabitListViewModel()
+            {
+                Habits = habits
+            };
+            return View(model);
         }
     }
 }

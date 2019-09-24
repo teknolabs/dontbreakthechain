@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using TeknoLabs.DontBreakTheChain.Business;
 using TeknoLabs.DontBreakTheChain.DataAccess;
 using TeknoLabs.DontBreakTheChain.DataAccess.EntityFramework;
+using TeknoLabs.DontBreakTheChain.WebUI.Middlewares;
 
 namespace TeknoLabs.DontBreakTheChain.WebUI
 {
@@ -30,6 +31,10 @@ namespace TeknoLabs.DontBreakTheChain.WebUI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseStaticFiles();
+
+            app.UseNodeModules(env.ContentRootPath); 
 
             app.UseMvcWithDefaultRoute();
         }

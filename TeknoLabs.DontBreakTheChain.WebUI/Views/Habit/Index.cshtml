@@ -1,0 +1,17 @@
+﻿@model TeknoLabs.DontBreakTheChain.WebUI.Models.HabitListViewModel
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<table>
+    <tr>
+        <td>Habit</td>
+    </tr>
+    @foreach (var item in Model.Habits)
+    {
+        <tr>
+            <td>@item.Name</td>
+        </tr>
+    }
+</table>

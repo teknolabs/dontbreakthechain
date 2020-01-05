@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>Navigation</div>
+    <div>
+        @await Component.InvokeAsync("RightMenu")
+    </div>
+    <div> 
+        @RenderBody()
+    </div>
+    <div>Footer</div>
+
+</body>
+</html>

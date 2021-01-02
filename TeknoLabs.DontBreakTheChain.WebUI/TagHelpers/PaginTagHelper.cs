@@ -27,7 +27,7 @@ namespace TeknoLabs.DontBreakTheChain.WebUI.TagHelpers
 
             for (int i = 0; i < PageCount; i++)
             {
-                stringBuilder.AppendFormat("<li class='{0}'>", i == CurrentCategory ? "active", "");
+                stringBuilder.AppendFormat("<li class='{0}'>", i == CurrentCategory ? "active" : "");
                 stringBuilder.AppendFormat("<a href='/product/index?page={0}&category={1}'>{2}</a>", i, CurrentCategory, i);
                 stringBuilder.Append("</li>");
             }
